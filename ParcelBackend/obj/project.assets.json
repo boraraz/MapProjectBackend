@@ -4021,11 +4021,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/boraraz/Projects/ParcelBackend/ParcelBackend/ParcelBackend.csproj",
+      "projectUniqueName": "/Users/boraraz/Documents/GitHub/StajProjesiBackend/ParcelBackend/ParcelBackend.csproj",
       "projectName": "ParcelBackend",
-      "projectPath": "/Users/boraraz/Projects/ParcelBackend/ParcelBackend/ParcelBackend.csproj",
+      "projectPath": "/Users/boraraz/Documents/GitHub/StajProjesiBackend/ParcelBackend/ParcelBackend.csproj",
       "packagesPath": "/Users/boraraz/.nuget/packages/",
-      "outputPath": "/Users/boraraz/Projects/ParcelBackend/ParcelBackend/obj/",
+      "outputPath": "/Users/boraraz/Documents/GitHub/StajProjesiBackend/ParcelBackend/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/boraraz/.nuget/NuGet/NuGet.Config"

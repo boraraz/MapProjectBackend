@@ -23,9 +23,7 @@ public class ParcelController : ControllerBase
     [HttpGet("getparcels")]
     public IActionResult GetParcels()
     {
-        List<ParcelInfo> Parcels =  _db.Parcels
-            .Select(x => new ParcelInfo() {parcelId=x.parcelId, parcelCity = x.parcelCity, parcelCounty = x.parcelCounty, parcelDistrict = x.parcelDistrict })
-            .ToList();
+       var Parcels =  _db.Parcels.ToList();
 
         return Ok(Parcels);
     }
