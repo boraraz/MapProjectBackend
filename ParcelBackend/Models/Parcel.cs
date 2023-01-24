@@ -18,6 +18,8 @@ namespace ParcelBackend.Models
 
 		public string parcelDistrict { get; set; }
 
+        public string parcelCoordinates { get; set; }
+
 	}
 }
 

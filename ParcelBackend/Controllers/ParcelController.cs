@@ -25,13 +25,13 @@ public class ParcelController : ControllerBase
     {
        var Parcels =  _db.Parcels.ToList();
 
-        return Ok(Parcels);
+       return Ok(Parcels);
     }
 
     [HttpPost("add")]
     public IActionResult Add(Parcel parcel)
     {
-        _db.Parcels.Add(new Models.Parcel { parcelId =parcel.parcelId, parcelCity = parcel.parcelCity, parcelCounty = parcel.parcelCounty, parcelDistrict = parcel.parcelDistrict });
+        _db.Parcels.Add(new Models.Parcel { parcelId =parcel.parcelId, parcelCity = parcel.parcelCity, parcelCounty = parcel.parcelCounty, parcelDistrict = parcel.parcelDistrict, parcelCoordinates = parcel.parcelCoordinates});
         _db.SaveChanges();
         return Ok();
     }

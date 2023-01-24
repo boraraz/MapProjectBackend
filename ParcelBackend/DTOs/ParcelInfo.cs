@@ -10,6 +10,9 @@ namespace ParcelBackend.DTOs
 		public string parcelCounty { get; set; }
 
 		public string parcelDistrict { get; set; }
-	}
+
+        public string parcelCoordinates { get; set; }
+
+    }
 }
 
